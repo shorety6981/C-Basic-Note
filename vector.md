@@ -16,4 +16,7 @@
 7.`vec.begin()`,指向第一个元素              
 8.`vec.end()`,表示末端元素的下一个            
 9.向量大小:`vec.size();  `          
-10.清空:`vec.clear() `      
+10.清空:`vec.clear() `   
+
+* 容器中的排序函数与其他情况不同
+`sort(vec.begin(),vec.end());`  //默认从小到大   
