@@ -19,4 +19,6 @@
 10.清空:`vec.clear() `   
 
 * 容器中的排序函数与其他情况不同
-`sort(vec.begin(),vec.end());`  //默认从小到大   
+`sort(vec.begin(),vec.end());`  //默认从小到大    
+* 建立动态数组时，加入值要用函数   
+` vec.push_back(i);`  
