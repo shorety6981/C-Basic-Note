@@ -1,10 +1,11 @@
 # vector 容器——#include< vector >
 
 * 内置函数      
-1.创建vector对象，`vector<int> vec; `        
-2.尾部插入数字：`vec.push_back(a); `         
-3.使用下标访问元素，`cout<<vec[0]<<endl; `下标是从0开始          
-4.使用迭代器访问元素.                  
+1.创建vector对象，`vector<int> vec; `   
+2.                     
+3.尾部插入数字：`vec.push_back(a); `         
+4.使用下标访问元素，`cout<<vec[0]<<endl; `下标是从0开始          
+5.使用迭代器访问元素.                  
  ```
  vector<int> it;               
     for(it=vec.begin();it!=vec.end();it++)          
