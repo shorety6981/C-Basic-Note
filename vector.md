@@ -2,7 +2,7 @@
 
 * 内置函数      
 1.创建vector对象，`vector<int> vec; `   
-2.                     
+2.创建并初始化vector对象 `vector<int> vec(n,1)`  vec数组中n个位置，每个位置数值为1                         
 3.尾部插入数字：`vec.push_back(a); `         
 4.使用下标访问元素，`cout<<vec[0]<<endl; `下标是从0开始          
 5.使用迭代器访问元素.                  
