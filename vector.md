@@ -29,3 +29,5 @@
 # 细节
 * vector<string> s;
 s[0][0]：第一个字符串的首字母   
+* 在程序开头如何返回空数组
+`if（） return vector<int> ();`
